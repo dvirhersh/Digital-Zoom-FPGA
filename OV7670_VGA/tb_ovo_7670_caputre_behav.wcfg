@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_ovo_7670_caputre_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_ovo_7670_caputre" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2000001fs"></ZoomEndTime>
+      <Cursor1Time time="90000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="161"></NameColumnWidth>
+      <ValueColumnWidth column_width="95"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/pclk" type="logic">
+      <obj_property name="ElementShortName">pclk</obj_property>
+      <obj_property name="ObjectShortName">pclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/camera_v_sync" type="logic">
+      <obj_property name="ElementShortName">camera_v_sync</obj_property>
+      <obj_property name="ObjectShortName">camera_v_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/camera_h_ref" type="logic">
+      <obj_property name="ElementShortName">camera_h_ref</obj_property>
+      <obj_property name="ObjectShortName">camera_h_ref</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/zoom_x2" type="logic">
+      <obj_property name="ElementShortName">zoom_x2</obj_property>
+      <obj_property name="ObjectShortName">zoom_x2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/din" type="array">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/addr" type="array">
+      <obj_property name="ElementShortName">addr[18:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/dout" type="array">
+      <obj_property name="ElementShortName">dout[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/clk_bram" type="logic">
+      <obj_property name="ElementShortName">clk_bram</obj_property>
+      <obj_property name="ObjectShortName">clk_bram</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/address" type="array">
+      <obj_property name="ElementShortName">address[18:0]</obj_property>
+      <obj_property name="ObjectShortName">address[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/address_next" type="array">
+      <obj_property name="ElementShortName">address_next[18:0]</obj_property>
+      <obj_property name="ObjectShortName">address_next[18:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/write_state" type="array">
+      <obj_property name="ElementShortName">write_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/latch_href" type="logic">
+      <obj_property name="ElementShortName">latch_href</obj_property>
+      <obj_property name="ObjectShortName">latch_href</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/latced_data" type="array">
+      <obj_property name="ElementShortName">latced_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">latced_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/counter_col" type="array">
+      <obj_property name="ElementShortName">counter_col[10:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_col[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/counter_row" type="array">
+      <obj_property name="ElementShortName">counter_row[10:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_row[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ovo_7670_caputre/uut/clk_bram_int" type="logic">
+      <obj_property name="ElementShortName">clk_bram_int</obj_property>
+      <obj_property name="ObjectShortName">clk_bram_int</obj_property>
+   </wvobject>
+</wave_config>

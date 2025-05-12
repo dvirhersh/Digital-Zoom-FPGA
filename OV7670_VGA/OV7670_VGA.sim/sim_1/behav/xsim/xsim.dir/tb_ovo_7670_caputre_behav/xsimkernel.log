@@ -2,3 +2,6 @@ Running: xsim.dir/tb_ovo_7670_caputre_behav/xsimk.exe -simmode gui -wdb tb_ovo_7
 Design successfully loaded
 Design Loading Memory Usage: 8484 KB (Peak: 8484 KB)
 Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 9364 KB (Peak: 9364 KB)
+Simulation CPU Usage: 155 ms
